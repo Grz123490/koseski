@@ -1,0 +1,25 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'myfirst myfirst mysecond'
+      'mysecond mysecond mysecond'
+      'mysecond mythird mythird';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+.first {
+    background-color: red;
+    grid-area: myfirst;
+}
+
+.second {
+    background-color: blue;
+    grid-area: mysecond;
+}
+
+.third {
+    background-color: green;
+    grid-area: mythird;
+}
