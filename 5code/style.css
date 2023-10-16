@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+#lista {
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+button{
+    width: 190px;
+    height: 190px;
+    background-color: bisque;
+    border-style: none;
+}
+
+
