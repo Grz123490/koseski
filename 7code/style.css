@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+#container{
+    height: 80%;
+    width: 100%;
+    background-color: rgb(41, 42, 43);
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+#footer{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+
+}
+
+.div_kraj{
+    height: 100px;
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.div_flaga{
+    height: 100%;
+    width: 200px;
+}
+
+.div_info{
+    height: 100%;
+    width: 300px;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 100%;
+}
+
+h1{
+    font-size: x-large;
+    margin: 0px;
+}
+h2{
+    font-size: small;
+   /* margin: 0px; */
+}
+
