@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+ 
+#container{
+    display: flex;
+    height: 100vh;
+    background-color: aquamarine;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    text-align: center;
+    gap: 10px;
+}
+
+.div_kraj{
+    
+    height: 300px;
+    width: 300px;
+    border: 5px black solid;
+}
+
+.div_nazwa{
+    height: 150px;
+    margin-block-start: -0.83em;
+    margin-block-end: -0.83em;
+}
+
+.div_stolica{
+    height: 150px;
+}
+
+hr{
+    margin: 0;
+}

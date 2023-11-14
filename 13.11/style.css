@@ -1,0 +1,15 @@
+.zadania{
+    border: 5px solid black;
+    width: 25%;
+    height: 200px;
+    padding: 15px;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}

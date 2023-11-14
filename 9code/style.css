@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+#main{
+    display: grid;
+    grid-template-areas: 
+    "left right";
+    height: 100vh;
+}
+
+#right{
+    display: flex;
+    grid-area: right;
+    width: 50vw;
+    background-color: #A8C256;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#left{
+    grid-area: left;
+    display: flex;
+    width: 50vw;
+    background-color: #C33149;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#karta{
+    border-radius:20px;
+    border: 5px #AD343E solid;
+    width:30vw;
+    height:30vh;
+    background-color: #FC9F5B;
+}
+
+img{
+    height: 10vh;
+}
