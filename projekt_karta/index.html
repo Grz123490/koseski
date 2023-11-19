@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="left">
+            <div id="info">
+                <form>
+                    <h2>Imie i Nazwisko:</h2>
+                    <input id="imiein" type="text"><br>
+                    <h2>Numer Karty:</h2>
+                    <input id="nrin" type="text"><br>
+                    <h2>Data:</h2>
+                    <input id="datain" type="date"><br>
+                    
+                </form>
+            </div>
+            <div id="obrazy">
+                <img src="ob1.jpg" onclick="ustawTlo(this)">
+                <img src="ob2.jpg" onclick="ustawTlo(this)">
+                <img src="ob3.jpg" onclick="ustawTlo(this)">
+            </div>
+        </div>
+        <div id="right">
+            <div id="karta">
+                <h2 id="logo">LOGO</h2>
+                <h3 id="nrout">****-****-****-****</h3>
+                <h3 id="imieout"></h3>
+                <h3 id="dataout"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

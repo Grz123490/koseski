@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+#main{
+    display: grid;
+    grid-template-areas: 
+    "left right";
+    height: 100vh;
+}
+
+#right{
+    display: flex;
+    grid-area: right;
+    width: 50vw;
+    background-color: #A8C256;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#left{
+    grid-area: left;
+    display: flex;
+    width: 50vw;
+    background-color: #C33149;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#karta{
+    border-radius:20px;
+    width: 400px;
+    height: 250px;
+    background-image: url(ob1.jpg);
+    perspective: 500px;
+    padding: 20px;
+}
+
+img{
+    height: 150px;
+}
+
+#karta:hover {
+    box-shadow: 0px 0px 30px rgba(0,0,0, 0.6);
+    cursor: pointer;
+  }
+
+#nrout{
+    position: absolute;
+    bottom: 40%;
+    left: 30%;
+}
+
+#imieout{
+    bottom: 10%;
+    left: 10%;
+    position: absolute;
+}
+
+#dataout{
+    bottom: 10%;
+    right: 10%;
+    position: absolute;
+}
+
+#logo{
+    text-align: right;
+}
