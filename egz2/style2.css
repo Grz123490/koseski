@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: linen;
+    color: #222;
+    margin: auto;
+    width: 90%;
+}
+#gora{
+    display: flex;
+    padding: 20px;
+}
+table{
+    margin: 40px;
+}
+#lewy{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 100px;
+    
+}
+#prawy{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 100px;
+}
+td{
+    padding: 30px;
+    text-align: center;
+}
+
+#kom1{
+    
+    background-color:hsl(var(--primary-color), 100%, 50%) ;
+}
+#kom2{
+    background-color:hsl(var(--primary-color), 80%, 50%) ;
+}
+#kom3{
+    background-color:hsl(var(--primary-color), 60%, 50%) ;
+}
+#kom4{
+    background-color:hsl(var(--primary-color), 40%, 50%) ;
+}
+#kom5{
+    background-color:hsl(var(--primary-color), 20%, 50%) ;
+}
+img{
+    width: 500px;
+    height: 75px;
+}
+
+#stopka{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+a{
+    color: #aaa;
+}
+a:hover{
+    color: white;
+}
